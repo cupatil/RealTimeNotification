@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Real Time Notification</string>
+
+
+    <string name="pickup_location">Pickup Location</string>
+    <string name="destination_location">Destination Location</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="autocomplete_hint">Enter place name or address</string>
+    <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
+
+    <string name="warning">Warning</string>
+    <string name="btn_ok">Ok</string>
+    <string name="internet_error">No internet connection found.</string>
+    <string name="msg_with_in_one_km">You are within 1 km from your destination!!</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="@dimen/_10sdp">
+
+    <EditText
+        android:id="@+id/etPickuplocation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/bg_edit_text"
+        android:cursorVisible="false"
+        android:editable="false"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:hint="@string/pickup_location"
+        android:inputType="textPostalAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <EditText
+        android:id="@+id/etDropLocation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/bg_edit_text"
+        android:cursorVisible="false"
+        android:ellipsize="end"
+        android:focusable="false"
+        android:hint="@string/destination_location"
+        android:inputType="none"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:id="@+id/btnStartStop"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/bg_apply_button"
+        android:text="@string/start"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</LinearLayout>
